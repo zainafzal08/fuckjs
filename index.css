@@ -1,0 +1,30 @@
+body {
+  background: #EEE;
+  font-family: 'Raleway', sans-serif;
+}
+
+.headline {
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 6rem;
+  font-family: 'Ubuntu', sans-serif;
+  color: #333;
+  margin-bottom: .5rem;
+}
+.subtitle {
+  margin-top: .5rem;
+  font-size: 3rem;
+  font-family: 'Ubuntu', sans-serif;
+  color: #999;
+}
+.em {
+  font-style: italic;
+
+}
