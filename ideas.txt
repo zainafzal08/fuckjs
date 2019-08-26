@@ -2,3 +2,9 @@ floating point 0.1 + 0.2 == 0.3
 everthing in wotjs
 The fact document.getElements gives a nodeList not a fucken Array
 
+design:
+
+make it chat like, mascot on the left, circular image, rounded text box
+with a prompt and then have a play section centered below to try out some code.
+
+Heavy use of dotted red lines

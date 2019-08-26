@@ -1,6 +1,9 @@
+
+
 body {
   background: #EEE;
   font-family: 'Raleway', sans-serif;
+  --red: #e35d5b;
 }
 
 .headline {
@@ -11,20 +14,25 @@ body {
   justify-content: center;
   flex-direction: column;
 }
-
-.title {
-  font-size: 6rem;
-  font-family: 'Ubuntu', sans-serif;
-  color: #333;
-  margin-bottom: .5rem;
+.headline .title {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-size: 3.5rem;
+  color: #444;
+  border-bottom: 2px dotted var(--red);
+  padding-bottom: 1rem;
 }
-.subtitle {
-  margin-top: .5rem;
-  font-size: 3rem;
-  font-family: 'Ubuntu', sans-serif;
-  color: #999;
+.headline .title h1 {
+  margin: 0rem;
 }
-.em {
-  font-style: italic;
-
+.headline i {
+  font-size: 7.5rem;
+  color: var(--red);
+  margin-bottom: -1.2rem;
+}
+.headline h4 {
+  font-size: 1.5rem;
+  color: #777;
 }
